@@ -15,7 +15,7 @@ class App
         Gtk::Dialog::DESTROY_WITH_PARENT,
         Gtk::MessageDialog::OTHER,
         Gtk::MessageDialog::BUTTONS_CLOSE,
-        "\nSupuestamente escribiste:\n#{@entry1.text}"
+        "\nYou said?\n#{@entry1.text}\n\nYeah. Whatever."
       )
       dialog.run
       @entry1.text = ''
